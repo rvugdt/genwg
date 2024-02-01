@@ -40,7 +40,7 @@ Address=$useraddr/24
 $DNS
 
 [Peer]
-PublicKey=$(cat /etc/wireguard/$wgint/keys/publickey)
+PublicKey=$(cat /etc/wireguard/$wgintname/keys/publickey)
 PresharedKey=$psk
 AllowedIPs=$wgintaddr/32$allowedips
 Endpoint=$(curl -4 ifconfig.me):$wgintport
