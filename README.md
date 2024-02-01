@@ -2,9 +2,15 @@
 
 ## USAGE EXAMPLE:
 
-> git clone 
+> root@debian:~ git clone https://github.com/rvugdt/genwg.git
 
-root@debian:~> genwgcfg.sh
+> root@debian:~ chmod +x genwg/*.sh
+
+> root@debian:~ mv genwg/*.sh /usr/bin/
+
+> root@debian:~ rm -rf genwg/
+
+> root@debian:~ genwgcfg.sh
 
 > Interface name: **wg5**
 
@@ -12,11 +18,11 @@ root@debian:~> genwgcfg.sh
 
 > Listen port: **44444**
 
-DONE
+> DONE
 
 > Would you enable wg5 now? (y/n): **y**
 
-root@debian:~> genwguser.sh
+> root@debian:~ genwguser.sh
 
 > Which wg interface conf (ex. wg0) : **wg5**
 
