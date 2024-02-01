@@ -21,9 +21,7 @@ Allowed IPs (ex: 192.168.0.0/24, 192.168.1.0/24) :0.0.0.0
 curl find out your external IPv4
 
 DONE
-root@debian:~#
-root@debian:~#
-root@debian:~#
+
 root@debian:~# wg show wg5
 interface: wg5
   public key: sT9xjNjQh9E+hGXndtZV05pJIDFURt7UPKNiv2/0SHs=
