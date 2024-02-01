@@ -7,7 +7,7 @@ if [ -f /etc/wireguard/$wgintname.conf ]; then
   wgintaddr=$(grep "Address" $wgintconf | cut -d '=' -f2 | cut -d '/' -f 1 | sed 's/ //')
   wgintaddrprefix=$(echo $wgintaddr | cut -d '.' -f1-3)
   wgintaddrprefix="$wgintaddrprefix."
-  wgintport=$(grep ListenPort wgusers.conf | cut -d '=' -f2 | sed 's/ //')
+  wgintport=$(grep ListenPort $wgintconf | cut -d '=' -f2 | sed 's/ //')
 
   echo -n "Username: "; read username
   echo -n "Users ip $wgintaddrprefix"; read useraddr
