@@ -2,6 +2,8 @@
 
 ## USAGE EXAMPLE:
 
+> git clone 
+
 root@debian:~> genwgcfg.sh
 
 > Interface name: **wg5**
