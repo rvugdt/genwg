@@ -29,18 +29,6 @@ root@debian:~> genwguser.sh
 
 > Allowed IPs (ex: 192.168.0.0/24, 192.168.1.0/24) :**0.0.0.0**
 
-curl find out your external IPv4
+> curl find out your external IPv4
 
-DONE
-
-root@debian:~> wg show wg5
-interface: wg5
-  public key: sT9xjNjQh9E+hGXndtZV05pJIDFURt7UPKNiv2/0SHs=
-  private key: (hidden)
-  listening port: 44444
-
-peer: b8rVugWCqk0ZccezSGXS7p49QXbqJYidMRoWgiM4yW4=
-  preshared key: (hidden)
-  allowed ips: 192.168.8.11/32
-  persistent keepalive: every 25 seconds
-root@debian:~>
+**DONE**
