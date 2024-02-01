@@ -14,7 +14,7 @@ DONE
 
 > Would you enable wg5 now? (y/n): **y**
 
-Created symlink /etc/systemd/system/multi-user.target.wants/wg-quick@wg5.service → /lib/systemd/system/wg-quick@.service.
+> Created symlink /etc/systemd/system/multi-user.target.wants/wg-quick@wg5.service → /lib/systemd/system/wg-quick@.service.
 
 
 root@debian:~> genwguser.sh
