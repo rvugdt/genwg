@@ -35,12 +35,21 @@ root@debian:~> genwguser.sh
 you will get this hierarchy in your /etc/wireguard/
 
 wg5.conf
+
 wg5/
+
 ├──  keys/
+
 │   ├──  privatekey
+
 │   └──  publickey
+
 └──  user001/
+
     ├──  privatekey
+    
     ├──  psk
+    
     ├──  publickey
+    
     └──  user001.conf
