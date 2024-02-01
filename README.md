@@ -17,11 +17,9 @@ Username: user001
 Users ip 192.168.8.11
 DNS: 8.8.8.8
 Allowed IPs (ex: 192.168.0.0/24, 192.168.1.0/24) :0.0.0.0
-Warning: writing to world accessible file.
-Consider setting the umask to 077 and trying again.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100    12  100    12    0     0     27      0 --:--:-- --:--:-- --:--:--    27
+
+curl find out your external IPv4
+
 DONE
 root@debian:~#
 root@debian:~#
