@@ -6,8 +6,11 @@ root@debian:~# genwgcfg.sh
 Interface name: wg5
 Interface ipv4: 192.168.8.1
 Listen port: 44444
+
 DONE
+
 Would you enable wg5 now? (y/n): y
+
 Created symlink /etc/systemd/system/multi-user.target.wants/wg-quick@wg5.service → /lib/systemd/system/wg-quick@.service.
 
 
